@@ -1,0 +1,17 @@
+create database kcasamento;
+
+use kcasamento;
+
+create table confirmados(
+	id int not null primary key auto_increment,
+	name varchar(50) not null,
+	email varchar(100) not null
+);
+
+
+create table presentes(
+	id int not null primary key auto_increment,
+	name varchar(50) not null,
+	presente varchar(30) not null,
+	email varchar(100) not null
+);
